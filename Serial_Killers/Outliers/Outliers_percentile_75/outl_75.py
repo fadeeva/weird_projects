@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 
-map_data = pd.read_csv('../data/SHR65_22.csv', index_col=0)
+map_data = pd.read_csv('../../data/SHR65_22.csv', index_col=0)
 
 def get_data_by_params(params):
     data = map_data.copy()
